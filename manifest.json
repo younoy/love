@@ -1,0 +1,25 @@
+{
+  "description": "for all",
+  "manifest_version": 2,
+  "name": "LOVEU",
+  "version": "1.0",
+  "icons": {
+        "128": "images/Valentine_love.png",
+        "16": "images/Valentine_love.png",
+        "48": "images/Valentine_love.png"
+    },
+  "browser_action": {
+        "default_icon": "images/Valentine_love.png",
+        "default_title": "I LOVE U"
+    },
+  "background": {
+      "presistent": true,
+      "scripts": ["js/background.js" ]
+  },
+  "permissions": [
+        "tabs"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "background.html"
+  }
+}
