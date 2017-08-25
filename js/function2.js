@@ -9,7 +9,7 @@ console.log(offsetY);
 
 var displayMode = 1;
 var together = new Date();
-together.setFullYear(2012, 9, 1);
+together.setFullYear(2010, 10, 2);
 together.setHours(20);
 together.setMinutes(0);
 together.setSeconds(0);
