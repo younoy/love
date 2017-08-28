@@ -4,12 +4,12 @@
   "name": "LOVEU",
   "version": "1.0",
   "icons": {
-        "128": "images/Valentine_love.png",
-        "16": "images/Valentine_love.png",
-        "48": "images/Valentine_love.png"
+        "128": "images/qixi.png",
+        "16": "images/qixi.png",
+        "48": "images/qixi.png"
     },
   "browser_action": {
-        "default_icon": "images/Valentine_love.png",
+        "default_icon": "images/qixi.png",
         "default_title": "I LOVE U"
     },
   "background": {
